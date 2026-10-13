@@ -1,0 +1,42 @@
+OrderDirectory: Orders
+LoginDirectory: Logins.txt
+ManagerKey: 5)/%#!Q+dN&ey2XtEU,?WV/mF=;VL1f?).j832NvRp*z/WRJ)c
+
+Pages:
+  BackEnd:
+    - ManagerHome.py
+    - CreateManagerLogin.py
+    - ServeScreen.py
+  FrontEnd:
+    - Ordering.py
+    - Progression.py
+
+LoginDebounce: 2
+
+LoginProtocol: tcp
+LoginPort: 13947
+
+CreateLoginProtocol: tcp
+CreateLoginPort: 13948
+
+FileExpiryTime: 120
+
+User Settings:
+  UsernameChars: 25 # Maximum username characters allowed.
+  PasswordChars: 20
+OrderTimeThresholds:
+    Early: 
+      Threshold: 120
+      Color: Violet # Colors available: Red, Orange, Yellow, Green, Blue, Violet, and Gray - not case sensitive.
+    On Time:
+      Threshold: 360
+      Color: Green
+    Overdue: 
+      Threshold: 480
+      Color: Orange
+    Late: 
+      Threshold: 720
+      Color: Red
+    Expired:
+      Threshold: 1440
+      Color: Gray

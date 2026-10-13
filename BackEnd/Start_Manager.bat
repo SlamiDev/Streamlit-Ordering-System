@@ -1,0 +1,1 @@
+streamlit run Manager.py --server.port 8004
