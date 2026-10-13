@@ -11,4 +11,4 @@ Uses the following modules:
 -- pyzmq (SERVER EMULATION) 
 
 
-# In order to run the system, the Start_Server.bat file must be ran (or manual loading of the server.py file) to allow the I/O to work, otherwise it will break (timeouts). Every other file is a sort of addon or dlc to the server, with the Start_Manager.bat file (Manager.py file) containing all other files (pages) into one. Most settings can be changed in the FrontEnd and BackEnd Configs, they are .yaml files.
+In order to run the system, the Start_Server.bat file must be ran (or manual loading of the server.py file) to allow the I/O to work, otherwise it will break (timeouts). Every other file is a sort of addon or dlc to the server, with the Start_Manager.bat file (Manager.py file) containing all other files (pages) into one. Most settings can be changed in the FrontEnd and BackEnd Configs, they are .yaml files.
